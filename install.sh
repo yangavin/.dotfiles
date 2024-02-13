@@ -1,6 +1,7 @@
 #! /bin/bash
 
-ln -fs "$(dirname "$0")"/config/.* "$HOME"/
+DIR="$(dirname "$0")"
+ln -fs "$DIR"/config/.* "$HOME"/
 
 # Install zsh for linux
 if [[ $OSTYPE == "linux-gnu"* ]]; then
@@ -27,7 +28,12 @@ git clone https://github.com/marlonrichert/zsh-autocomplete.git "$ZSH_CUSTOM/plu
 # Install lsd
 echo "INSTALLING LSD"
 if [[ $OSTYPE == "linux-gnu"* ]]; then
-    apt install lsd
+    if (apt install lsd); then
+        apt install lsd
+    else
+        echo "CANNOT INSTALL LSD FROM APT, USING LS INSTEAD"
+        sed -i '114d' "$DIR"/config/.zshrc
+    fi
 elif [[ $OSTYPE == "darwin"* ]]; then
     brew install lsd
 else
