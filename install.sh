@@ -10,7 +10,7 @@ fi
 
 # Install oh-my-zsh
 echo installing oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "RUNZSH='no' KEEP_ZSHRC='yes' $(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Install powerlevel10k
 echo installing p10k
