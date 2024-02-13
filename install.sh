@@ -2,6 +2,12 @@
 
 ln -fs "$(pwd)"/config/.* "$HOME"/
 
+# Install zsh for linux
+if [[ $OSTYPE == "linux-gnu"* ]]; then
+    echo installing zsh
+    apt install zsh
+fi
+
 # Install oh-my-zsh
 echo installing oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
