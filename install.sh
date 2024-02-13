@@ -1,6 +1,6 @@
 #! /bin/bash
 
-DIR="$(dirname "$0")"
+DIR="$(dirname "$(readlink -f "$0")")"
 ln -fs "$DIR"/config/.* "$HOME"/
 
 # Install zsh for linux
