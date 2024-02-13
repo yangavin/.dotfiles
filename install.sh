@@ -18,6 +18,16 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git "$ZSH_CUSTOM/
 echo installing zsh-autocomplete
 git clone https://github.com/marlonrichert/zsh-autocomplete.git "$ZSH_CUSTOM/plugins/zsh-autocomplete"
 
+# Install lsd
+echo "installing lsd (with apt or homebrew)"
+if [[ $OSTYPE == "linux-gnu"* ]]; then
+    apt install lsd
+elif [[ $OSTYPE == "darwin"* ]]; then
+    brew install lsd
+else
+    echo "cannot detect OS as linux or macOS, please manually install lsd instead"
+fi
+
 # Source .zshrc
 echo sourcing .zshrc
 # shellcheck source=/dev/null
