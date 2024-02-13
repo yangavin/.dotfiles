@@ -1,6 +1,6 @@
 #! /bin/bash
 
-ln -fs "$(pwd)"/config/.* "$HOME"/
+ln -fs "$(dirname "$0")"/config/.* "$HOME"/
 
 # Install zsh for linux
 if [[ $OSTYPE == "linux-gnu"* ]]; then
