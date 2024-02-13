@@ -34,5 +34,4 @@ else
     echo "cannot detect OS as linux or macOS, please manually install lsd instead"
 fi
 
-chsh
 echo COMPELTE
