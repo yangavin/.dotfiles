@@ -18,10 +18,16 @@ sudo apt update && sudo apt upgrade
 
 ## Installation
 
+Clone the repo to your user root directory:
+
+```bash
+git clone https://github.com/yangavin/dotfiles.git ~/.dotfiles
+```
+
 Run the `install.sh` script with:
 
 ```bash
-./install.sh`
+~/.dotfiles/install.sh
 ```
 
 This will symlink all the configuration dotfiles to the `$HOME` directory and install:
