@@ -1,6 +1,6 @@
 [core]
 	editor = code --wait
-	excludesfile = /Users/gavin/.gitignore_global
+	excludesfile = ~/.gitignore_global
 [user]
 	name = Gavin Yan
 	email = 120120964+yangavin@users.noreply.github.com
