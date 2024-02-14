@@ -5,7 +5,7 @@ ln -fs "$DIR"/config/.* "$HOME"/
 
 # Install zsh for linux
 if [[ $OSTYPE == "linux-gnu"* ]]; then
-    echo installing zsh
+    echo INSTALLING ZSH
     apt install -y zsh
 fi
 
