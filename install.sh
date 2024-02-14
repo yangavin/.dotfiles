@@ -6,7 +6,7 @@ ln -fs "$DIR"/config/.* "$HOME"/
 # Install zsh for linux
 if [[ $OSTYPE == "linux-gnu"* ]]; then
     echo installing zsh
-    apt install zsh
+    apt install -y zsh
 fi
 
 # Install oh-my-zsh
@@ -28,7 +28,7 @@ git clone https://github.com/marlonrichert/zsh-autocomplete.git "$ZSH_CUSTOM/plu
 # Install lsd
 echo "INSTALLING LSD"
 if [[ $OSTYPE == "linux-gnu"* ]]; then
-    if apt install lsd; then
+    if apt install -y lsd; then
         echo SUCCESSFULLY INSTALLED LSD
     else
         echo "CANNOT INSTALL LSD FROM APT, USING LS INSTEAD"
