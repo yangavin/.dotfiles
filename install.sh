@@ -28,8 +28,8 @@ git clone https://github.com/marlonrichert/zsh-autocomplete.git "$ZSH_CUSTOM/plu
 # Install lsd
 echo "INSTALLING LSD"
 if [[ $OSTYPE == "linux-gnu"* ]]; then
-    if (apt install lsd); then
-        apt install lsd
+    if apt install lsd; then
+        echo SUCCESSFULLY INSTALLED LSD
     else
         echo "CANNOT INSTALL LSD FROM APT, USING LS INSTEAD"
         sed -i '114d' "$DIR"/config/.zshrc
