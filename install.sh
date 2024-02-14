@@ -32,7 +32,6 @@ if [[ $OSTYPE == "linux-gnu"* ]]; then
         echo SUCCESSFULLY INSTALLED LSD
     else
         echo "CANNOT INSTALL LSD FROM APT, USING LS INSTEAD"
-        sed -i '114d' "$DIR"/config/.zshrc
     fi
 elif [[ $OSTYPE == "darwin"* ]]; then
     brew install lsd
