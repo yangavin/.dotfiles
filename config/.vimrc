@@ -2,8 +2,8 @@
 map j gj
 map k gk
 " H and L to move to the end of line
-map H ^
-map L $
+map H g^
+map L g$
 
 
 " Syntax highlighting
