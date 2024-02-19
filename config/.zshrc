@@ -78,7 +78,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git brew zsh-syntax-highlighting zsh-autocomplete)
+plugins=(git gh fzf brew nvm npm dotenv thefuck aliases zsh-syntax-highlighting zsh-autocomplete)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -114,3 +114,9 @@ source $ZSH/oh-my-zsh.sh
 if lsd >/dev/null 2>&1; then
   alias ls="lsd"
 fi
+
+# Fuzzy find a directory and cd into it
+di(){
+    # shellcheck disable=SC2164
+    cd "$(fd . "${1:-"$HOME"/Code}" -t d | fzf)"
+}
