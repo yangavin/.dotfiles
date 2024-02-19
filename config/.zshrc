@@ -115,8 +115,12 @@ if lsd >/dev/null 2>&1; then
   alias ls="lsd"
 fi
 
-# Fuzzy find a directory and cd into it
+# Fuzzy find a directory and cd into (or print to stdout with -p)
 di(){
+  if [[ $2 == "-p" ]]; then
+    fd . "${1:-"$HOME"/Code}" -t d | fzf
+  else
     # shellcheck disable=SC2164
-    cd "$(fd . "${1:-"$HOME"/Code}" -t d | fzf)"
+    $(fd . "${1:-"$HOME"/Code}" -t d | fzf)
+  fi
 }
