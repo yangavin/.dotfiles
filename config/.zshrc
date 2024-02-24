@@ -111,16 +111,9 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-if lsd >/dev/null 2>&1; then
-  alias ls="lsd"
-fi
+alias ls="lsd"
 
-# Fuzzy find a directory and cd into (or print to stdout with -p)
-di(){
-  if [[ $2 == "-p" ]]; then
-    fd . "${1:-"$HOME"/Code}" -t d | fzf
-  else
-    # shellcheck disable=SC2164
-    $(fd . "${1:-"$HOME"/Code}" -t d | fzf)
-  fi
+getpw(){
+  bw get password "$1" | pbcopy
 }
+
