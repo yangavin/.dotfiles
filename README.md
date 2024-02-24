@@ -15,8 +15,15 @@ Install all packages needed (working on automating this with ansible)
 - ripgrep
 - fzf
 - lsd
+- stow
 
 ## Installation
+
+Clone the repository to your root directory with:
+
+```bash
+git clone https://github.com/yangavin/.dotfiles ~/.dotfiles
+```
 
 Stow the config folder with:
 
