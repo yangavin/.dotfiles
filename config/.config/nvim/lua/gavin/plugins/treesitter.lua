@@ -2,7 +2,8 @@ return {{
     'nvim-treesitter/nvim-treesitter',
     build = ':TSUpdate',
     opts = {
-        ensure_installed = {"javascript", "typescript", "python", "c", "lua", "vim", "vimdoc", "query"},
+        ensure_installed = {"html", "css", "javascript", "typescript", "tsx", "json", "markdown", "regex", "python",
+                            "c", "lua", "vim", "vimdoc", "query"},
 
         -- Install parsers synchronously (only applied to `ensure_installed`)
         sync_install = false,
