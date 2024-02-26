@@ -30,4 +30,11 @@ return {
 			require("Comment").setup()
 		end,
 	},
+	{
+		"folke/trouble.nvim",
+		dependencies = { "nvim-tree/nvim-web-devicons" },
+		config = function()
+			vim.keymap.set("n", "<leader>x", "<cmd>TroubleToggle<CR>")
+		end,
+	},
 }
