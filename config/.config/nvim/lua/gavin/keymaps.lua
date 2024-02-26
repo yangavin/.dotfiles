@@ -12,6 +12,9 @@ map("n", "<C-k>", "<C-w>k")
 map("n", "<C-u>", "<C-u>zz")
 map("n", "<C-d>", "<C-d>zz")
 
+-- My quirky keymap for end of line :P
+map("i", "<S-CR>", "<End>")
+
 -- LSP
 vim.api.nvim_create_autocmd("LspAttach", {
 	callback = function(ev)
