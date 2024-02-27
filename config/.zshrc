@@ -83,6 +83,7 @@ plugins=(git gh fzf brew nvm npm dotenv thefuck aliases zsh-syntax-highlighting 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+bindkey -M menuselect '\r' .accept-line
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -107,15 +108,13 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
 alias ls="lsd"
-
+alias :q="echo not 👏 in 👏 vim 👏" # Silly message for a silly mistake
+alias so="source ~/.zshrc"
 getpw(){
   bw get password "$1" | pbcopy
 }
 
-# Silly message for a silly mistake
-alias :q="echo not 👏 in 👏 vim 👏"
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
