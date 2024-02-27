@@ -117,3 +117,5 @@ getpw(){
   bw get password "$1" | pbcopy
 }
 
+# Silly message for a silly mistake
+alias :q="echo not 👏 in 👏 vim 👏"
