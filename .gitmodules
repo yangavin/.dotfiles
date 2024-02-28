@@ -1,3 +1,6 @@
 [submodule ".ohmyzsh"]
 	path = config/.ohmyzsh
 	url = git@github.com:ohmyzsh/ohmyzsh.git
+[submodule "config/.zshplugins/zsh-syntax-highlighting"]
+	path = config/.zshplugins/zsh-syntax-highlighting
+	url = git@github.com:zsh-users/zsh-syntax-highlighting.git
