@@ -1,12 +1,12 @@
 [submodule ".ohmyzsh"]
 	path = root/.ohmyzsh
 	url = git@github.com:ohmyzsh/ohmyzsh.git
-[submodule "config/.zshplugins/themes/powerlevel10k"]
+[submodule "root/.zshplugins/themes/powerlevel10k"]
 	path = root/.zshplugins/themes/powerlevel10k
 	url = git@github.com:romkatv/powerlevel10k.git
-[submodule "config/.zshplugins/plugins/zsh-syntax-highlighting"]
+[submodule "root/.zshplugins/plugins/zsh-syntax-highlighting"]
 	path = root/.zshplugins/plugins/zsh-syntax-highlighting
 	url = git@github.com:zsh-users/zsh-syntax-highlighting.git
-[submodule "config/.zshplugins/plugins/zsh-autocomplete"]
+[submodule "root/.zshplugins/plugins/zsh-autocomplete"]
 	path = root/.zshplugins/plugins/zsh-autocomplete
 	url = git@github.com:marlonrichert/zsh-autocomplete.git
