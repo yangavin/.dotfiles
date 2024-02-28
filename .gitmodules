@@ -4,3 +4,6 @@
 [submodule "config/.zshplugins/zsh-syntax-highlighting"]
 	path = config/.zshplugins/zsh-syntax-highlighting
 	url = git@github.com:zsh-users/zsh-syntax-highlighting.git
+[submodule "config/.zshplugins/zsh-autocomplete"]
+	path = config/.zshplugins/zsh-autocomplete
+	url = git@github.com:marlonrichert/zsh-autocomplete.git
