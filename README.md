@@ -1,6 +1,6 @@
 # dotfiles
 
-This repository contains all my configuration dotfiles (stored in the `config` folder)
+This repository contains all my configuration dotfiles (stored in the `root` folder)
 
 ## Prerequisite
 
@@ -29,7 +29,7 @@ Stow the config folder with:
 
 ```bash
 cd ~/.dotfiles
-stow config --target=$HOME
+stow root
 ```
 
 This will symlink all the configuration dotfiles to the `$HOME` directory.
