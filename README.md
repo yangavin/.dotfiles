@@ -28,7 +28,8 @@ git clone --recurse-submodules https://github.com/yangavin/.dotfiles ~/.dotfiles
 Stow the config folder with:
 
 ```bash
-stow ~/.dotfiles/config/ --target=$HOME
+cd ~/.dotfiles
+stow config --target=$HOME
 ```
 
 This will symlink all the configuration dotfiles to the `$HOME` directory.
