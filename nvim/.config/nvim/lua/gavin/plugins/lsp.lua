@@ -31,6 +31,8 @@ return {
 					end,
 				},
 			})
+			require("lspconfig").prolog_ls.setup({})
+			vim.cmd("autocmd BufNewFile,BufRead *.pl set filetype=prolog") -- read pl files as prolog not perl
 		end,
 	},
 	{
