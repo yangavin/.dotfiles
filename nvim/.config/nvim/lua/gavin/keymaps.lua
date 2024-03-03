@@ -1,6 +1,6 @@
 local map = vim.keymap.set
 -- Easily source configuration
-map("n", "<leader><leader>", ":so<CR>")
+map("n", "<leader><leader>", ":luafile $MYVIMRC<CR>")
 
 -- Move between buffers
 map("n", "<C-h>", "<C-w>h")
