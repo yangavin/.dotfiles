@@ -13,4 +13,4 @@ opt.softtabstop = 2
 opt.shiftwidth = 2
 
 -- Set updatetime for linting
-opt.updatetime = 1000
+opt.updatetime = 500
