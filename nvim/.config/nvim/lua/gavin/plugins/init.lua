@@ -40,4 +40,7 @@ return {
 	{
 		"stevearc/dressing.nvim",
 	},
+	{
+		"tpope/vim-surround",
+	},
 }
