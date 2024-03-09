@@ -5,16 +5,6 @@ return {
 		config = function()
 			require("mason").setup()
 			require("mason-lspconfig").setup({
-				ensure_installed = {
-					"html",
-					"emmet_language_server",
-					"cssls",
-					"tsserver",
-					"eslint",
-					"pyright",
-					"jdtls",
-				},
-				automatic_installation = true,
 				handlers = {
 					function(server)
 						require("lspconfig")[server].setup({
