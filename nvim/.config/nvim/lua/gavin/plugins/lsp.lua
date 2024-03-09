@@ -6,11 +6,14 @@ return {
 			require("mason").setup()
 			require("mason-lspconfig").setup({
 				handlers = {
+					-- Automatically setup installed LSPs with completion capabilities
 					function(server)
 						require("lspconfig")[server].setup({
 							capabilities = require("cmp_nvim_lsp").default_capabilities(),
 						})
 					end,
+
+					-- Lua has a special setup for neovim configs
 					lua_ls = function()
 						require("lspconfig").lua_ls.setup({
 							capabilities = require("cmp_nvim_lsp").default_capabilities(),
@@ -29,6 +32,8 @@ return {
 					end,
 				},
 			})
+
+			-- Prolog LSP
 			require("lspconfig").prolog_ls.setup({})
 			vim.cmd("autocmd BufNewFile,BufRead *.pl set filetype=prolog") -- read pl files as prolog not perl
 		end,
