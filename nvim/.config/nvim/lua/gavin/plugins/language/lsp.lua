@@ -1,8 +1,16 @@
 return {
 	{
 		"neovim/nvim-lspconfig",
-		dependencies = { "williamboman/mason.nvim", "williamboman/mason-lspconfig.nvim", "hrsh7th/nvim-cmp" },
+		dependencies = {
+			"williamboman/mason.nvim",
+			"williamboman/mason-lspconfig.nvim",
+			"hrsh7th/nvim-cmp",
+			"folke/neoconf.nvim",
+			"folke/neodev.nvim",
+		},
 		config = function()
+			require("neoconf").setup({})
+			require("neodev").setup({})
 			require("mason").setup()
 			require("mason-lspconfig").setup({
 				handlers = {
@@ -10,24 +18,6 @@ return {
 					function(server)
 						require("lspconfig")[server].setup({
 							capabilities = require("cmp_nvim_lsp").default_capabilities(),
-						})
-					end,
-
-					-- Lua has a special setup for neovim configs
-					lua_ls = function()
-						require("lspconfig").lua_ls.setup({
-							capabilities = require("cmp_nvim_lsp").default_capabilities(),
-							settings = {
-								Lua = {
-									diagnostics = { globals = { "vim" } },
-								},
-								workspace = {
-									library = {
-										[vim.fn.expand("$VIMRUNTIME/lua")] = true,
-										[vim.fn.stdpath("config") .. "/lua"] = true,
-									},
-								},
-							},
 						})
 					end,
 				},

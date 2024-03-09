@@ -1,0 +1,86 @@
+{
+  "neodev": {
+    "library": {
+      "enabled": true,
+      "plugins": [
+        "nvim-treesitter",
+        "nvim-lspconfig",
+        "nvim-cmp",
+        "nvim-lint",
+        "nvim-web-devicons",
+        "plenary.nvim",
+        "telescope.nvim",
+        "trouble.nvim",
+        "nvim-autopairs",
+        "nvim-treesitter",
+        "nvim-lspconfig",
+        "nvim-cmp",
+        "nvim-lint",
+        "nvim-web-devicons",
+        "plenary.nvim",
+        "telescope.nvim",
+        "trouble.nvim",
+        "nvim-autopairs",
+        "nvim-treesitter",
+        "nvim-lspconfig",
+        "nvim-cmp",
+        "nvim-lint",
+        "nvim-web-devicons",
+        "plenary.nvim",
+        "telescope.nvim",
+        "trouble.nvim",
+        "nvim-autopairs",
+        "nvim-treesitter",
+        "nvim-lspconfig",
+        "nvim-cmp",
+        "nvim-lint",
+        "nvim-web-devicons",
+        "plenary.nvim",
+        "telescope.nvim",
+        "trouble.nvim",
+        "nvim-autopairs",
+        "nvim-treesitter",
+        "nvim-lspconfig",
+        "nvim-cmp",
+        "nvim-lint",
+        "nvim-web-devicons",
+        "plenary.nvim",
+        "telescope.nvim",
+        "trouble.nvim",
+        "nvim-autopairs",
+        "nvim-treesitter",
+        "nvim-lspconfig",
+        "nvim-cmp",
+        "nvim-lint",
+        "nvim-web-devicons",
+        "plenary.nvim",
+        "telescope.nvim",
+        "trouble.nvim",
+        "nvim-autopairs",
+        "nvim-treesitter",
+        "nvim-lspconfig",
+        "nvim-cmp",
+        "nvim-lint",
+        "nvim-web-devicons",
+        "plenary.nvim",
+        "telescope.nvim",
+        "trouble.nvim",
+        "nvim-autopairs",
+        "nvim-treesitter",
+        "nvim-lspconfig",
+        "nvim-cmp",
+        "nvim-lint",
+      ]
+    }
+  },
+  "neoconf": {
+    "plugins": {
+      "lua_ls": {
+        "enabled": true
+      }
+    }
+  },
+  "lspconfig": {
+    "lua_ls": {}
+  }
+}
