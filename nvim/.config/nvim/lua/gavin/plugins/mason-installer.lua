@@ -9,6 +9,7 @@ return {
 			"cssls",
 			"tsserver",
 			"eslint",
+			"json-lsp",
 			"pyright",
 			"jdtls",
 			"clangd",
