@@ -34,7 +34,8 @@
                 "plenary.nvim",
                 "telescope.nvim",
                 "trouble.nvim",
-                "vim-surround"
+                "vim-surround",
+                "barbar.nvim"
             ]
         }
     },
