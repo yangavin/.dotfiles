@@ -17,15 +17,15 @@ return {
 		})
 
 		local builtin = require("telescope.builtin")
-		vim.keymap.set("n", "<C-f>", builtin.find_files, {})
+		vim.keymap.set("n", "<C-f>", builtin.find_files, { desc = "Find Files" })
 
-		vim.keymap.set("n", "<leader>fs", builtin.lsp_document_symbols, {})
-		vim.keymap.set("n", "<leader>fS", builtin.lsp_workspace_symbols, {})
+		vim.keymap.set("n", "<leader>fs", builtin.lsp_document_symbols, { desc = "Find Symbols" })
+		vim.keymap.set("n", "<leader>fS", builtin.lsp_workspace_symbols, { desc = "Find Workspace Symbols" })
 
-		vim.keymap.set("n", "<leader>gd", builtin.lsp_definitions, {})
-		vim.keymap.set("n", "<leader>gr", builtin.lsp_references, {})
-		vim.keymap.set("n", "<leader>gt", builtin.lsp_type_definitions, {})
+		vim.keymap.set("n", "<leader>gd", builtin.lsp_definitions, { desc = "Go to Definition" })
+		vim.keymap.set("n", "<leader>gr", builtin.lsp_references, { desc = "Go to References" })
+		vim.keymap.set("n", "<leader>gt", builtin.lsp_type_definitions, { desc = "Go to Type Definition" })
 
-		vim.keymap.set("n", "<leader>d", builtin.diagnostics, {})
+		vim.keymap.set("n", "<leader>d", builtin.diagnostics, { desc = "Diagnostics" })
 	end,
 }

@@ -37,9 +37,15 @@ return {
 					}
 					vim.keymap.set("n", "K", vim.lsp.buf.hover, opts)
 					vim.keymap.set("i", "<C-h>", vim.lsp.buf.signature_help, opts)
-					vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename, opts)
-					vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, opts)
-					vim.keymap.set("n", "<leader>f", function()
+
+					opts.desc = "Rename"
+					vim.keymap.set("n", "<leader>r", vim.lsp.buf.rename, opts)
+
+					opts.desc = "Code action"
+					vim.keymap.set({ "n", "v" }, "<leader>a", vim.lsp.buf.code_action, opts)
+
+					opts.desc = "LSP Format"
+					vim.keymap.set("n", "<leader>F", function()
 						vim.lsp.buf.format({
 							async = true,
 						})

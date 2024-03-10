@@ -13,7 +13,5 @@ return {
 				lint.try_lint()
 			end,
 		})
-
-		vim.keymap.set("n", "<leader>l", lint.try_lint)
 	end,
 }
