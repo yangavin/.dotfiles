@@ -1,23 +1,22 @@
 # dotfiles
 
-This repository contains all my configuration dotfiles.
+This repository contains all my configuration dotfiles. Use stow to symlink the dotfiles to the `$HOME` directory.
 
-## Prerequisite
+## zshgit
+
+This stores all zsh and git configurations.
+
+### Prerequisite
 
 Install all packages needed (working on automating this with ansible)
 
-### zshgit
-
 - zsh
-- stow
 - lsd
+- bat
 
-### nvim
+## nvim
 
-- neovim
-- ripgrep
-- fzf
-- lsd
+This stores all neovim configurations. Go to [yangavin/neovim](https://github.com/yangavin/nvim/tree/main) for more information.
 
 ## Installation
 
