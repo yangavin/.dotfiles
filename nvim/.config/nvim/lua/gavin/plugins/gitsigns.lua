@@ -14,19 +14,19 @@ return {
 				end
 
 				-- Restore hunks
-				map("n", "<leader>hr", gs.reset_hunk)
+				map("n", "<leader>hr", gs.reset_hunk, { desc = "Reset Hunk" })
 				map("v", "<leader>hr", function()
 					gs.reset_hunk({ vim.fn.line("."), vim.fn.line("v") })
-				end)
-				map("n", "<leader>hR", gs.reset_buffer)
+				end, { desc = "Reset Hunk" })
+				map("n", "<leader>hR", gs.reset_buffer, { desc = "Reset Buffer" })
 
 				-- Preview hunk diffs
-				map("n", "<leader>hp", gs.preview_hunk)
+				map("n", "<leader>hp", gs.preview_hunk, { desc = "Preview Hunk" })
 
 				-- Blame preview
 				map("n", "<leader>hb", function()
 					gs.blame_line({ full = true })
-				end)
+				end, { desc = "Blame Preview" })
 			end,
 		})
 	end,
