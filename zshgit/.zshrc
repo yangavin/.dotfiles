@@ -75,7 +75,7 @@ ZSH_CUSTOM="$HOME/.zshplugins"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git gh fzf brew nvm thefuck npm dotenv colorize macos aliases zsh-syntax-highlighting zsh-autocomplete)
+plugins=(git gh fzf brew nvm thefuck npm dotenv macos aliases zsh-syntax-highlighting zsh-autocomplete)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -108,8 +108,11 @@ alias reload="exec zsh"
 getpw(){
   bw get password "$1" | pbcopy
 }
-alias cat="ccat"
-alias less="cless"
+alias cat=bat
+alias lg=lazygit
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# To customize prompt, run `p10k configure` or edit ~/.dotfiles/zshgit/.p10k.zsh.
+[[ ! -f ~/.dotfiles/zshgit/.p10k.zsh ]] || source ~/.dotfiles/zshgit/.p10k.zsh
