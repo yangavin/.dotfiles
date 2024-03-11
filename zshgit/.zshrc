@@ -75,7 +75,7 @@ ZSH_CUSTOM="$HOME/.zshplugins"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git gh fzf brew nvm thefuck npm dotenv macos aliases zsh-syntax-highlighting zsh-autocomplete)
+plugins=(git zsh-syntax-highlighting zsh-autocomplete)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -102,12 +102,6 @@ bindkey -M menuselect '\r' .accept-line
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-alias ls="lsd"
-alias :q="echo not 👏 in 👏 vim 👏" # Silly message for a silly mistake
-alias reload="exec zsh"
-getpw(){
-  bw get password "$1" | pbcopy
-}
 alias cat=bat
 alias lg=lazygit
 
