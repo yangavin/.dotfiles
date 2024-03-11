@@ -37,25 +37,4 @@ return {
 	{
 		"tpope/vim-surround",
 	},
-	{
-		"folke/which-key.nvim",
-		event = "VeryLazy",
-		init = function()
-			vim.o.timeout = true
-			vim.o.timeoutlen = 300
-		end,
-		config = function()
-			require("which-key").register({
-				f = {
-					name = "Find", -- optional group name
-				},
-				g = {
-					name = "Go-to", -- optional group name
-				},
-				y = {
-					name = "Yanks", -- optional group name
-				},
-			}, { prefix = "<leader>" })
-		end,
-	},
 }
