@@ -10,3 +10,6 @@
 [submodule "zsh-autocomplete"]
 	path = zshgit/.zshplugins/plugins/zsh-autocomplete
 	url = https://github.com/marlonrichert/zsh-autocomplete
+[submodule "nvim"]
+	path = nvim
+	url = https://github.com/yangavin/nvim/
