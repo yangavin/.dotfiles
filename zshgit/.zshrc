@@ -75,7 +75,7 @@ ZSH_CUSTOM="$HOME/.zshplugins"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git gh fzf brew nvm thefuck npm dotenv macos aliases zsh-syntax-highlighting zsh-autocomplete)
+plugins=(git gh fzf brew nvm thefuck npm macos aliases zsh-syntax-highlighting zsh-autocomplete)
 
 source $ZSH/oh-my-zsh.sh
 
