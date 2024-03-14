@@ -30,6 +30,7 @@ setopt autocd
 alias g=git
 alias ls="lsd"
 alias cat=bat
+alias n=nvim
 alias lg=lazygit
 getpw(){
   bw get password "$1" | pbcopy
