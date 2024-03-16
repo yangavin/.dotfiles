@@ -29,6 +29,7 @@ setopt autocd
 # Aliases
 alias g=git
 alias ls="lsd"
+alias la="ls -a"
 alias cat=bat
 alias n=nvim
 alias lg=lazygit
