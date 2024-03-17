@@ -8,7 +8,7 @@ fi
 # source p10k
 source ~/.zshplugins/powerlevel10k/powerlevel10k.zsh-theme
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+# source p10k configuration
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 
@@ -21,6 +21,7 @@ bindkey -M menuselect '\r' .accept-line
 # Add syntax highlighting
 source $HOME/.zshplugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+# Options
 setopt autocd
 
 # Aliases
