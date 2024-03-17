@@ -12,9 +12,6 @@ source ~/.zshplugins/powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 
-# Add homebrew binaries to PATH
-eval "$(/opt/homebrew/bin/brew shellenv)"
-
 # Add autocomplete
 source $HOME/.zshplugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
