@@ -31,6 +31,7 @@ alias la="ls -a"
 alias cat=bat
 alias n=nvim
 alias lg=lazygit
+alias repo="gh repo view --web"
 getpw(){
   bw get password "$1" | pbcopy
 }
