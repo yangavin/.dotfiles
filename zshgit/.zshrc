@@ -28,6 +28,13 @@ setopt autocd
 alias g=git
 alias ls=lsd
 alias la="ls -a"
+tree(){
+  if (( $# == 0 )); then
+    ls --tree
+    return
+  fi
+  ls --tree --depth $1
+}
 alias cat=bat
 alias n=nvim
 alias lg=lazygit
