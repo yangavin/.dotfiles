@@ -27,7 +27,7 @@ setopt autocd
 # Aliases
 alias g=git
 alias ls=lsd
-alias la="ls -a"
+alias la="ls -A"
 tree(){
   if (( $# == 0 )); then
     ls --tree
