@@ -16,7 +16,6 @@ Use stow to symlink the dotfiles to the `$HOME` directory.
 - lazygit
 - gh
 - bw
-- fswatch
 
 ## nvim
 
