@@ -11,11 +11,6 @@ source ~/.zshplugins/powerlevel10k/powerlevel10k.zsh-theme
 # source p10k configuration
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# Vi bindings
-bindkey -v
-bindkey '^N' down-line-or-select
-bindkey '^P' infer-next-history
-
 # Add autocomplete
 source $HOME/.zshplugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
