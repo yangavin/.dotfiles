@@ -1,7 +1,3 @@
-[submodule "nvim"]
-	path = nvim
-	url = https://github.com/yangavin/nvim/
-	branch = main
 [submodule "zshgit/.zshplugins/powerlevel10k"]
 	path = zshgit/.zshplugins/powerlevel10k
 	url = https://github.com/romkatv/powerlevel10k
