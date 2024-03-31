@@ -38,6 +38,7 @@ tree(){
 alias cat=bat
 alias n=nvim
 alias lg=lazygit
+alias vault="npx dotenv-vault"
 alias repo="gh repo view --web"
 getpw(){
   bw get password "$1" | pbcopy
