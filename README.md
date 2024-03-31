@@ -1,22 +1,28 @@
 # dotfiles
 
-This repository contains all my configuration dotfiles. Use stow to symlink the dotfiles to the `$HOME` directory.
+This repository contains all my configuration dotfiles for zsh and git.
+Use stow to symlink the dotfiles to the `$HOME` directory.
 
-## zshgit
-
-This stores all zsh and git configurations.
-
-### Prerequisite
-
-Install all packages needed (working on automating this with ansible)
+## Prerequisite
 
 - zsh
+- stow
 - lsd
 - bat
 
+### Optional
+
+- nvim
+- lazygit
+- gh
+- bw
+- fswatch
+
 ## nvim
 
-This stores all neovim configurations. Go to [yangavin/neovim](https://github.com/yangavin/nvim/tree/main) for more information.
+I have a separate repository for my neovim configuration.
+Go to [yangavin/neovim](https://github.com/yangavin/neovim)
+for more information.
 
 ## Installation
 
@@ -32,16 +38,8 @@ git clone --recurse-submodules https://github.com/yangavin/.dotfiles ~/.dotfiles
 cd ~/.dotfiles
 ```
 
-To apply the configuration for zsh and git:
+Symlink dotfiles with stow:
 
 ```bash
 stow zshgit
 ```
-
-To apply configuration for nvim:
-
-```bash
-stow nvim
-```
-
-This will symlink all the configuration dotfiles to the `$HOME` directory.
