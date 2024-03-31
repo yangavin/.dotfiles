@@ -42,15 +42,4 @@ alias repo="gh repo view --web"
 getpw(){
   bw get password "$1" | pbcopy
 }
-watch(){
-  if [[ -z "$1" ]]; then
-    echo "Usage: watch <command>"
-    return
-  fi
-  fswatch -o . | while read -r; do
-    printf '%.0s-' {1..80}
-    echo
-    $1
-  done
-}
 alias :q="echo not 👏 in 👏 vim 👏" # Silly message for a silly mistake
