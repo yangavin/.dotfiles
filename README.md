@@ -1,7 +1,7 @@
 # dotfiles
 
-This repository contains all my configuration dotfiles for zsh and git.
-Use stow to symlink the dotfiles to the `$HOME` directory.
+This repository contains all my configuration dotfiles.
+Use stow to symlink the `home` directory to the `$HOME` directory.
 
 ## Prerequisite
 
@@ -37,8 +37,8 @@ git clone --recurse-submodules https://github.com/yangavin/.dotfiles ~/.dotfiles
 cd ~/.dotfiles
 ```
 
-Symlink dotfiles with stow:
+Symlink `home` with stow:
 
 ```bash
-stow zshgit
+stow home
 ```
