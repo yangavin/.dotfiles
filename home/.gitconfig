@@ -10,8 +10,9 @@
 	ui = auto
 [alias]
 	s = status
-	cam = commit -am
 	cm = commit -m
+  ca = commit --amend
+  can = commit --amend --no-edit
 	si = switch
 	sic = switch -c
 	br = branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' --sort=-committerdate
