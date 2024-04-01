@@ -1,6 +1,9 @@
 " Set 'scrolloff' to 8
 set scrolloff=8
 
+"Syntax highlighting
+syntax enable
+
 " Enable line numbers
 set number
 
