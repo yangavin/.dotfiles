@@ -1,10 +1,10 @@
 {
   "Ansi 5 Color" : {
-    "Red Component" : 0.96078431606292725,
+    "Red Component" : 0.9600830078125,
     "Color Space" : "sRGB",
-    "Blue Component" : 0.90588235855102539,
+    "Blue Component" : 0.82487255846168483,
     "Alpha Component" : 1,
-    "Green Component" : 0.7607843279838562
+    "Green Component" : 0.46753065660595894
   },
   "Working Directory" : "\/Users\/gavin\/Code",
   "Prompt Before Closing 2" : false,
@@ -377,11 +377,11 @@
   "Vertical Spacing" : 1,
   "Use Underline Color" : false,
   "Ansi 7 Color" : {
-    "Red Component" : 0.77678179740905762,
+    "Red Component" : 1,
     "Color Space" : "sRGB",
-    "Blue Component" : 0.93536376953125,
+    "Blue Component" : 1,
     "Alpha Component" : 1,
-    "Green Component" : 0.80943101644515991
+    "Green Component" : 1
   },
   "Space" : 0,
   "AWDS Tab Directory" : "",
@@ -395,11 +395,11 @@
   "Minimum Contrast" : 0,
   "HotKey Modifier Flags" : 1048576,
   "Ansi 15 Color" : {
-    "Red Component" : 0.7764706015586853,
+    "Red Component" : 1,
     "Color Space" : "sRGB",
-    "Blue Component" : 0.93333333730697632,
+    "Blue Component" : 1,
     "Alpha Component" : 1,
-    "Green Component" : 0.80784314870834351
+    "Green Component" : 1
   },
   "HotKey Window Animates" : true,
   "Tab Color" : {
@@ -436,11 +436,11 @@
   "Initial Use Transparency" : true,
   "Non Ascii Font" : "Monaco 12",
   "Ansi 13 Color" : {
-    "Red Component" : 0.96078431606292725,
+    "Red Component" : 0.95686274509803926,
     "Color Space" : "sRGB",
-    "Blue Component" : 0.90588235855102539,
+    "Blue Component" : 0.82352941176470584,
     "Alpha Component" : 1,
-    "Green Component" : 0.7607843279838562
+    "Green Component" : 0.46666666666666667
   },
   "Use Tab Color" : false,
   "Columns" : 100,
