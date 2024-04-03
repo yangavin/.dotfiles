@@ -3,6 +3,8 @@
 This repository contains all my configuration dotfiles.
 Use stow to symlink the `home` directory to the `$HOME` directory.
 
+For macos specific configurations, use the `macos` directory.
+
 ## Prerequisite
 
 - zsh
@@ -41,4 +43,16 @@ Symlink `home` with stow:
 
 ```bash
 stow home
+```
+
+Symlink macos with stow:
+
+```bash
+stow macos
+```
+
+To install all homebrew packages, run:
+
+```bash
+brew bundle --file=macos/Brewfile
 ```
