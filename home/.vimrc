@@ -1,6 +1,8 @@
 " Set 'scrolloff' to 8
 set scrolloff=8
 
+set nowrap
+
 "Syntax highlighting
 syntax enable
 
@@ -18,3 +20,5 @@ let &t_EI = "\e[2 q"
 let mapleader = " "
 nnoremap <leader>qq :q<CR>
 nnoremap <leader>e :Ex<CR>
+nnoremap <leader>y "+y
+vnoremap <leader>y "+y
