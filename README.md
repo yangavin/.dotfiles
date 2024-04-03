@@ -54,5 +54,5 @@ stow macos
 To install all homebrew packages, run:
 
 ```bash
-brew bundle --file=macos/Brewfile
+brew bundle install
 ```
