@@ -64,6 +64,8 @@ brew "wget"
 brew "zsh"
 # High-performance, schema-free, document-oriented database
 brew "mongodb/brew/mongodb-community"
+# Enable Windows-like alt-tab
+cask "alt-tab"
 # Utilities designed to make common development tasks easier
 cask "devtoys"
 # Voice and text chat software
