@@ -66,6 +66,8 @@ brew "zsh"
 brew "mongodb/brew/mongodb-community"
 # Enable Windows-like alt-tab
 cask "alt-tab"
+# Chromium based browser
+cask "arc"
 # Utilities designed to make common development tasks easier
 cask "devtoys"
 # Voice and text chat software
