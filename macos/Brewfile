@@ -70,6 +70,8 @@ brew "mongodb/brew/mongodb-community"
 cask "alt-tab"
 # Chromium based browser
 cask "arc"
+# Desktop password and login vault
+cask "bitwarden"
 # Utilities designed to make common development tasks easier
 cask "devtoys"
 # Voice and text chat software
@@ -90,24 +92,36 @@ cask "iterm2"
 cask "karabiner-elements"
 # Blocks all Keyboard and TouchBar input
 cask "keyboardcleantool"
-# Minimal browser that protects privacy
-cask "min"
+# Provides updates to various Microsoft products
+cask "microsoft-auto-update"
+# Office suite
+cask "microsoft-office"
+# App to write, plan, collaborate, and get organised
+cask "notion"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
 # Browser for ambitious developers
 cask "polypane"
 # Collaborative SQL editor
 cask "popsql"
+# Collaboration platform for API development
+cask "postman"
+# VPN client focusing on security
+cask "protonvpn"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
 # Modified browser that helps in responsive web development
 cask "responsively"
+# Music streaming service
+cask "spotify"
 # System monitor for the menu bar
 cask "stats"
 # Management tool for Unity
 cask "unity-hub"
 # Open-source code editor
 cask "visual-studio-code"
+# Resources for Wacom tablets
+cask "wacom-tablet"
 # Video communication and virtual meeting platform
 cask "zoom"
 vscode "arthurwang.vsc-prolog"
