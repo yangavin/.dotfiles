@@ -52,6 +52,8 @@ brew "ollama"
 brew "pandoc"
 # Object-relational database system
 brew "postgresql@16"
+# Theme for zsh
+brew "powerlevel10k"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.11"
 # Search tool like grep and The Silver Searcher
@@ -64,6 +66,10 @@ brew "swi-prolog"
 brew "wget"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Real-time type-ahead completion for Zsh
+brew "zsh-autocomplete"
+# Fish shell like syntax highlighting for zsh
+brew "zsh-syntax-highlighting"
 # High-performance, schema-free, document-oriented database
 brew "mongodb/brew/mongodb-community"
 # Enable Windows-like alt-tab
