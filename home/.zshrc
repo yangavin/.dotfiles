@@ -6,19 +6,19 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # source p10k
-source ~/.zshplugins/powerlevel10k/powerlevel10k.zsh-theme
+source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
 
 # source p10k configuration
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # Add autocomplete
-source $HOME/.zshplugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+source /opt/homebrew/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 # Configure autocomplete to run suggestion on <CR>
 bindkey -M menuselect '\r' .accept-line
 
 # Add syntax highlighting
-source $HOME/.zshplugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Options
 setopt autocd
