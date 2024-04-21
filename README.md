@@ -1,36 +1,27 @@
 # dotfiles
 
-This repository contains all my configuration dotfiles.
-Use stow to symlink the `home` directory to the `$HOME` directory.
+This repository contains all my configuration dotfiles for setting up new machines.
 
-For macos specific configurations, use the `macos` directory.
-
-## Prerequisite
-
-- zsh
-- stow
-- lsd
-- bat
-
-### Optional
-
-- nvim
-- lazygit
-- gh
-- bw
-
-## nvim
+The idea is to use stow to symlink the `home` directory to the `$HOME` directory,
+and install all software with homebrew.
 
 I have a separate repository for my neovim configuration.
 Go to [yangavin/neovim](https://github.com/yangavin/neovim)
 for more information.
+
+## Prerequisites
+
+- zsh
+- git
+- brew
+- stow
 
 ## Installation
 
 Clone the repository to your root directory with:
 
 ```bash
-git clone --recurse-submodules https://github.com/yangavin/.dotfiles ~/.dotfiles
+git clone git@github.com:yangavin/.dotfiles.git ~/.dotfiles
 ```
 
 `cd` into the repo:
@@ -45,13 +36,7 @@ Symlink `home` with stow:
 stow home
 ```
 
-Symlink macos with stow:
-
-```bash
-stow macos
-```
-
-To install all homebrew packages, run:
+Install all homebrew packages with:
 
 ```bash
 brew bundle install
