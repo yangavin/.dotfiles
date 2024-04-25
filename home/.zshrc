@@ -30,19 +30,9 @@ alias g=git
 alias ls=lsd
 alias la="ls -A"
 alias l="ls -lA"
-tree(){
-  if (( $# == 0 )); then
-    ls --tree
-    return
-  fi
-  ls --tree --depth $1
-}
 alias cat=bat
 alias n=nvim
 alias lg=lazygit
 alias vault="npx dotenv-vault"
 alias repo="gh repo view --web"
-getpw(){
-  bw get password "$1" | pbcopy
-}
 alias :q="echo not 👏 in 👏 vim 👏" # Silly message for a silly mistake

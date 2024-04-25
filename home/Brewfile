@@ -76,8 +76,6 @@ brew "mongodb/brew/mongodb-community"
 cask "alt-tab"
 # Chromium based browser
 cask "arc"
-# Desktop password and login vault
-cask "bitwarden"
 # Utilities designed to make common development tasks easier
 cask "devtoys"
 # Voice and text chat software
