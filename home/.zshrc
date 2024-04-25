@@ -20,8 +20,10 @@ bindkey -M menuselect '\r' .accept-line
 # Add syntax highlighting
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-# Options
+# autocd
 setopt autocd
+# autocd for previous directory (-)
+alias -- -="cd -"
 
 # Aliases
 alias g=git
