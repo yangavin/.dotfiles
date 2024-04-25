@@ -86,6 +86,8 @@ cask "docker"
 cask "dotnet-sdk"
 # Developer targeted fonts with a high number of glyphs
 cask "font-jetbrains-mono-nerd-font"
+# Web browser
+cask "google-chrome"
 # Set of tools to manage resources and applications hosted on Google Cloud
 cask "google-cloud-sdk"
 # Client for the Google Drive storage service
