@@ -114,10 +114,14 @@ cask "popsql"
 cask "postman"
 # VPN client focusing on security
 cask "protonvpn"
+# Control your tools with a few keystrokes
+cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
 # Modified browser that helps in responsive web development
 cask "responsively"
+# Team communication and collaboration software
+cask "slack"
 # Music streaming service
 cask "spotify"
 # System monitor for the menu bar
