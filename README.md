@@ -9,6 +9,8 @@ I have a separate repository for my neovim configuration.
 Go to [yangavin/neovim](https://github.com/yangavin/neovim)
 for more information.
 
+iTerm2 setting is stored outside the home folder (since it doesn't need to be symlinked)
+
 ## Prerequisites
 
 - zsh
@@ -41,3 +43,9 @@ Install all homebrew packages with:
 ```bash
 brew bundle install
 ```
+
+Load iTerm2 settings:
+
+Preferences -> General -> Preferences -> Load preferences from a custom folder or URL
+
+Point it to this repo
