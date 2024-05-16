@@ -4060,7 +4060,7 @@
 			<key>Send Code When Idle</key>
 			<false/>
 			<key>Shortcut</key>
-			<string>A</string>
+			<string></string>
 			<key>Silence Bell</key>
 			<true/>
 			<key>Smart Cursor Color</key>
