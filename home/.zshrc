@@ -11,9 +11,11 @@ source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme
 # source p10k configuration
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# Add zsh-autosuggestions
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 # Add autocomplete
 source $(brew --prefix)/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
-
 # Configure autocomplete to run suggestion on <CR>
 bindkey -M menuselect '\r' .accept-line
 
