@@ -22,6 +22,8 @@ brew "entr"
 brew "fd"
 # Firebase command-line tools
 brew "firebase-cli"
+# Command-line tools for fly.io services
+brew "flyctl"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # GitHub command-line tool
@@ -68,12 +70,12 @@ brew "wget"
 brew "zsh"
 # Real-time type-ahead completion for Zsh
 brew "zsh-autocomplete"
+# Fish-like fast/unobtrusive autosuggestions for zsh
+brew "zsh-autosuggestions"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
 # High-performance, schema-free, document-oriented database
 brew "mongodb/brew/mongodb-community"
-# Enable Windows-like alt-tab
-cask "alt-tab"
 # Chromium based browser
 cask "arc"
 # Utilities designed to make common development tasks easier
@@ -84,6 +86,8 @@ cask "discord"
 cask "docker"
 # Developer platform
 cask "dotnet-sdk"
+# Collaborative team software
+cask "figma"
 # Developer targeted fonts with a high number of glyphs
 cask "font-jetbrains-mono-nerd-font"
 # Web browser
@@ -152,6 +156,7 @@ vscode "github.vscode-pull-request-github"
 vscode "golang.go"
 vscode "icrawl.discord-vscode"
 vscode "mads-hartmann.bash-ide-vscode"
+vscode "mechatroner.rainbow-csv"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-dotnettools.csdevkit"
 vscode "ms-dotnettools.csharp"
@@ -161,6 +166,11 @@ vscode "ms-python.black-formatter"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
+vscode "ms-toolsai.jupyter"
+vscode "ms-toolsai.jupyter-keymap"
+vscode "ms-toolsai.jupyter-renderers"
+vscode "ms-toolsai.vscode-jupyter-cell-tags"
+vscode "ms-toolsai.vscode-jupyter-slideshow"
 vscode "ms-vscode-remote.remote-containers"
 vscode "ms-vscode-remote.remote-ssh"
 vscode "ms-vscode-remote.remote-ssh-edit"
