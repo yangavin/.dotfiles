@@ -64,6 +64,8 @@ brew "ripgrep"
 brew "stow"
 # ISO/Edinburgh-style Prolog interpreter
 brew "swi-prolog"
+# Open source continuous file synchronization application
+brew "syncthing"
 # Internet file retriever
 brew "wget"
 # UNIX shell (command interpreter)
@@ -76,8 +78,6 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 # High-performance, schema-free, document-oriented database
 brew "mongodb/brew/mongodb-community"
-# Chromium based browser
-cask "arc"
 # Utilities designed to make common development tasks easier
 cask "devtoys"
 # Voice and text chat software
@@ -130,6 +130,8 @@ cask "slack"
 cask "spotify"
 # System monitor for the menu bar
 cask "stats"
+# To-do list
+cask "todoist"
 # Management tool for Unity
 cask "unity-hub"
 # Open-source code editor
