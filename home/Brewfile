@@ -88,6 +88,8 @@ cask "docker"
 cask "dotnet-sdk"
 # Collaborative team software
 cask "figma"
+# Web browser
+cask "firefox@developer-edition"
 # Developer targeted fonts with a high number of glyphs
 cask "font-jetbrains-mono-nerd-font"
 # Web browser
@@ -106,12 +108,8 @@ cask "keyboardcleantool"
 cask "microsoft-auto-update"
 # Office suite
 cask "microsoft-office"
-# App to write, plan, collaborate, and get organised
-cask "notion"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
-# Browser for ambitious developers
-cask "polypane"
 # Collaborative SQL editor
 cask "popsql"
 # Collaboration platform for API development
@@ -122,8 +120,6 @@ cask "protonvpn"
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
-# Modified browser that helps in responsive web development
-cask "responsively"
 # Team communication and collaboration software
 cask "slack"
 # Music streaming service
