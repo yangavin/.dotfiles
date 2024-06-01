@@ -5,11 +5,9 @@ I use [LazyVim](https://github.com/LazyVim/LazyVim) with some tweaks to suit my 
 ## Prerequisites
 
 - nvim (duh)
-- stow
 - fd
 - lazygit
 - rg
 - fzf
 
 Maybe more I'm not even sure lol
-

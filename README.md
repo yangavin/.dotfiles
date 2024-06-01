@@ -5,10 +5,6 @@ This repository contains all my configuration dotfiles for setting up new machin
 The idea is to use stow to symlink the `home` directory to the `$HOME` directory,
 and install all software with homebrew.
 
-I have a separate repository for my neovim configuration.
-Go to [yangavin/neovim](https://github.com/yangavin/neovim)
-for more information.
-
 iTerm2 setting is stored outside the home folder (since it doesn't need to be symlinked)
 
 ## Prerequisites
@@ -17,6 +13,16 @@ iTerm2 setting is stored outside the home folder (since it doesn't need to be sy
 - git
 - brew
 - stow
+
+For Neovim, I use [LazyVim](https://github.com/LazyVim/LazyVim) with some tweaks to suit my needs:
+
+- nvim (duh)
+- fd
+- lazygit
+- rg
+- fzf
+
+Maybe more I'm not even sure lol
 
 ## Installation
 
