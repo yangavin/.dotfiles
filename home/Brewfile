@@ -118,6 +118,8 @@ cask "protonvpn"
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
+# Software for Samsung external storage drives (T7 series)
+cask "samsung-portable-ssd-t7"
 # Team communication and collaboration software
 cask "slack"
 # Music streaming service
