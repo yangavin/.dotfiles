@@ -81,6 +81,8 @@ brew "mongodb/brew/mongodb-community"
 cask "devtoys"
 # Voice and text chat software
 cask "discord"
+# Data recovery software
+cask "disk-drill"
 # App to build and share containerised applications and microservices
 cask "docker"
 # Developer platform
