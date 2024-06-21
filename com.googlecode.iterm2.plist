@@ -3321,13 +3321,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.52201706171035767</real>
+				<real>0.52156862745098043</real>
 				<key>Color Space</key>
-				<string>sRGB</string>
+				<string>P3</string>
 				<key>Green Component</key>
-				<real>0.38176611065864563</real>
+				<real>0.40784313725490196</real>
 				<key>Red Component</key>
-				<real>0.884735107421875</real>
+				<real>0.81960784313725488</real>
 			</dict>
 			<key>Ansi 10 Color</key>
 			<dict>
@@ -3412,13 +3412,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.47561725974082947</real>
+				<real>0.51372549019607838</real>
 				<key>Color Space</key>
-				<string>sRGB</string>
+				<string>P3</string>
 				<key>Green Component</key>
-				<real>0.857757568359375</real>
+				<real>0.84313725490196079</real>
 				<key>Red Component</key>
-				<real>0.50456726551055908</real>
+				<real>0.58431372549019611</real>
 			</dict>
 			<key>Ansi 3 Color</key>
 			<dict>
@@ -3438,13 +3438,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.946258544921875</real>
+				<real>0.9137254901960784</real>
 				<key>Color Space</key>
-				<string>sRGB</string>
+				<string>P3</string>
 				<key>Green Component</key>
-				<real>0.50631582736968994</real>
+				<real>0.49803921568627452</real>
 				<key>Red Component</key>
-				<real>0.23795075714588165</real>
+				<real>0.30196078431372547</real>
 			</dict>
 			<key>Ansi 5 Color</key>
 			<dict>
@@ -3518,13 +3518,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.18039216101169586</real>
+				<real>0.0</real>
 				<key>Color Space</key>
-				<string>sRGB</string>
+				<string>P3</string>
 				<key>Green Component</key>
-				<real>0.11764705926179886</real>
+				<real>0.0</real>
 				<key>Red Component</key>
-				<real>0.11764705926179886</real>
+				<real>0.0</real>
 			</dict>
 			<key>Background Image Mode</key>
 			<integer>0</integer>
