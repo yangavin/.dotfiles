@@ -77,6 +77,8 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 # High-performance, schema-free, document-oriented database
 brew "mongodb/brew/mongodb-community"
+# OpenAI's official ChatGPT desktop app
+cask "chatgpt"
 # Utilities designed to make common development tasks easier
 cask "devtoys"
 # Voice and text chat software
