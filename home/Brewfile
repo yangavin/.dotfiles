@@ -64,7 +64,7 @@ brew "stow"
 # ISO/Edinburgh-style Prolog interpreter
 brew "swi-prolog"
 # Open source continuous file synchronization application
-brew "syncthing"
+brew "syncthing", restart_service: true
 # Internet file retriever
 brew "wget"
 # UNIX shell (command interpreter)
