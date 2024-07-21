@@ -83,8 +83,6 @@ cask "chatgpt"
 cask "devtoys"
 # Voice and text chat software
 cask "discord"
-# Data recovery software
-cask "disk-drill"
 # App to build and share containerised applications and microservices
 cask "docker"
 # Developer platform
@@ -92,7 +90,7 @@ cask "dotnet-sdk"
 # Collaborative team software
 cask "figma"
 # Web browser
-cask "firefox@developer-edition"
+cask "firefox"
 cask "font-jetbrains-mono-nerd-font"
 # Web browser
 cask "google-chrome"
