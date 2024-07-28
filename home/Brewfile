@@ -130,8 +130,6 @@ cask "spotify"
 cask "stats"
 # To-do list
 cask "todoist"
-# Menu bar pomodoro timer
-cask "tomatobar"
 # Management tool for Unity
 cask "unity-hub"
 # Open-source code editor
