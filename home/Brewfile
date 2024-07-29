@@ -91,11 +91,7 @@ cask "docker"
 cask "dotnet-sdk"
 # Collaborative team software
 cask "figma"
-# Web browser
-cask "firefox"
 cask "font-jetbrains-mono-nerd-font"
-# Web browser
-cask "google-chrome"
 # Set of tools to manage resources and applications hosted on Google Cloud
 cask "google-cloud-sdk"
 # Client for the Google Drive storage service
@@ -124,8 +120,6 @@ cask "raycast"
 cask "rectangle"
 # Team communication and collaboration software
 cask "slack"
-# Music streaming service
-cask "spotify"
 # System monitor for the menu bar
 cask "stats"
 # To-do list
