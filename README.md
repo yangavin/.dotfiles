@@ -2,7 +2,7 @@
 
 This repository contains all my configuration dotfiles for setting up new machines.
 
-The idea is to use stow to symlink the `home` directory to the `$HOME` directory,
+Use stow to symlink the `home` directory to the `$HOME` directory,
 and install all software with homebrew.
 
 iTerm2 setting is stored outside the home folder (since it doesn't need to be symlinked)
