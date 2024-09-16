@@ -15,7 +15,7 @@ source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Add autocomplete
-source $(brew --prefix)/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+source ~/.dotfiles/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 # Configure autocomplete to run suggestion on <CR>
 bindkey -M menuselect '\r' .accept-line
 

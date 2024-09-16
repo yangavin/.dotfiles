@@ -37,14 +37,12 @@ brew "lsd"
 brew "lua"
 # Package manager for the Lua programming language
 brew "luarocks"
-# Development kit for the Java programming language
-brew "openjdk"
 # Java-based project management
 brew "maven"
 # MongoDB Shell to connect, configure, query, and work with your MongoDB database
 brew "mongosh"
 # Open source relational database management system
-brew "mysql", restart_service: true
+brew "mysql"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Create, run, and share large language models (LLMs)
@@ -65,18 +63,20 @@ brew "stow"
 brew "swi-prolog"
 # Open source continuous file synchronization application
 brew "syncthing", restart_service: true
+# Free software distribution for the TeX typesetting system
+brew "texlive"
 # Internet file retriever
 brew "wget"
 # UNIX shell (command interpreter)
 brew "zsh"
-# Real-time type-ahead completion for Zsh
-brew "zsh-autocomplete"
 # Fish-like fast/unobtrusive autosuggestions for zsh
 brew "zsh-autosuggestions"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
 # High-performance, schema-free, document-oriented database
 brew "mongodb/brew/mongodb-community"
+# Compact TeX distribution as alternative to the full TeX Live / MacTeX
+cask "basictex"
 # Web browser focusing on privacy
 cask "brave-browser"
 # OpenAI's official ChatGPT desktop app
@@ -92,6 +92,8 @@ cask "dotnet-sdk"
 # Collaborative team software
 cask "figma"
 cask "font-jetbrains-mono-nerd-font"
+# Web browser
+cask "google-chrome"
 # Set of tools to manage resources and applications hosted on Google Cloud
 cask "google-cloud-sdk"
 # Client for the Google Drive storage service
@@ -106,6 +108,8 @@ cask "keyboardcleantool"
 cask "microsoft-auto-update"
 # Office suite
 cask "microsoft-office"
+# Meet, chat, call, and collaborate in just one place
+cask "microsoft-teams"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
 # Collaborative SQL editor
@@ -190,6 +194,7 @@ vscode "usernamehw.errorlens"
 vscode "visualstudioexptteam.intellicode-api-usage-examples"
 vscode "visualstudioexptteam.vscodeintellicode"
 vscode "visualstudiotoolsforunity.vstuc"
+vscode "vscjava.vscode-gradle"
 vscode "vscjava.vscode-java-debug"
 vscode "vscjava.vscode-java-dependency"
 vscode "vscjava.vscode-java-pack"
