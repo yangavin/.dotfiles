@@ -37,4 +37,5 @@ alias n=nvim
 alias lg=lazygit
 alias vault="npx dotenv-vault"
 alias repo="gh repo view --web"
+alias c="cursor ."
 alias :q="echo not 👏 in 👏 vim 👏" # Silly message for a silly mistake
