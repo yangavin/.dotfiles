@@ -3,24 +3,18 @@ tap "homebrew/bundle"
 tap "homebrew/services"
 tap "messense/macos-cross-toolchains"
 tap "mongodb/brew"
-# Run your GitHub Actions locally
-brew "act"
 # Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
-# Platform built on V8 to build network applications
-brew "node"
-# Secure and free password manager for all of your devices
-brew "bitwarden-cli"
 # Core application library for C
 brew "glib"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
-# Run arbitrary commands when files change
-brew "entr"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
+# Platform built on V8 to build network applications
+brew "node"
 # Firebase command-line tools
 brew "firebase-cli"
 # Command-line tools for fly.io services
@@ -85,8 +79,6 @@ brew "python@3.11"
 brew "ripgrep"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
-# ISO/Edinburgh-style Prolog interpreter
-brew "swi-prolog"
 # Open source continuous file synchronization application
 brew "syncthing", restart_service: :changed
 # User interface to the TELNET protocol
@@ -95,8 +87,6 @@ brew "telnet"
 brew "texlive"
 # Internet file retriever
 brew "wget"
-# GNU Binutils for x86_64-linux-gnu cross development
-brew "x86_64-linux-gnu-binutils", link: false
 # JavaScript package manager
 brew "yarn"
 # UNIX shell (command interpreter)
@@ -166,8 +156,6 @@ cask "monitorcontrol"
 cask "mos"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
-# Collaborative SQL editor
-cask "popsql"
 # Collaboration platform for API development
 cask "postman"
 # VPN client focusing on security
@@ -178,6 +166,8 @@ cask "raycast"
 cask "slack"
 # Music streaming service
 cask "spotify"
+# System monitor for the menu bar
+cask "stats"
 # To-do list
 cask "todoist"
 # Open-source code editor
