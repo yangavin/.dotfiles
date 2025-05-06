@@ -1,0 +1,302 @@
+{
+  "Thin Strokes" : 4,
+  "Working Directory" : "\/Users\/gavin\/Code",
+  "Prompt Before Closing 2" : false,
+  "Selected Text Color" : {
+    "Red Component" : 0.80392158031463623,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.95686274766921997,
+    "Alpha Component" : 1,
+    "Green Component" : 0.83921569585800171
+  },
+  "Rows" : 25,
+  "Ansi 11 Color" : {
+    "Red Component" : 0.97647058963775635,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.68627452850341797,
+    "Alpha Component" : 1,
+    "Green Component" : 0.88627451658248901
+  },
+  "Use Italic Font" : true,
+  "HotKey Characters" : "i",
+  "Foreground Color" : {
+    "Red Component" : 0.80392158031463623,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.95686274766921997,
+    "Alpha Component" : 1,
+    "Green Component" : 0.83921569585800171
+  },
+  "HotKey Window Floats" : true,
+  "Right Option Key Sends" : 0,
+  "Character Encoding" : 4,
+  "Selection Color" : {
+    "Red Component" : 0.34509804844856262,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.43921568989753723,
+    "Alpha Component" : 1,
+    "Green Component" : 0.35686275362968445
+  },
+  "Blend" : 0.53995131340579716,
+  "Mouse Reporting" : true,
+  "Cursor Boost" : 0,
+  "Ansi 4 Color" : {
+    "Red Component" : 0.30196078431372547,
+    "Color Space" : "P3",
+    "Blue Component" : 0.9137254901960784,
+    "Alpha Component" : 1,
+    "Green Component" : 0.49803921568627452
+  },
+  "Non-ASCII Anti Aliased" : true,
+  "Sync Title" : false,
+  "Disable Window Resizing" : true,
+  "Description" : "Default",
+  "Close Sessions On End" : true,
+  "Jobs to Ignore" : [
+    "rlogin",
+    "ssh",
+    "slogin",
+    "telnet"
+  ],
+  "Scrollback Lines" : 1000,
+  "HotKey Window Reopens On Activation" : false,
+  "Draw Powerline Glyphs" : true,
+  "Hide After Opening" : false,
+  "Flashing Bell" : false,
+  "Cursor Guide Color" : {
+    "Red Component" : 0.80392158031463623,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.95686274766921997,
+    "Alpha Component" : 0.070000000000000007,
+    "Green Component" : 0.83921569585800171
+  },
+  "BM Growl" : false,
+  "AWDS Window Directory" : "\/Users\/gavin\/Code",
+  "Open Password Manager Automatically" : false,
+  "Ansi 3 Color" : {
+    "Red Component" : 0.97647058963775635,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.68627452850341797,
+    "Alpha Component" : 1,
+    "Green Component" : 0.88627451658248901
+  },
+  "Use Non-ASCII Font" : false,
+  "Shortcut" : "",
+  "Link Color" : {
+    "Red Component" : 0.5372549295425415,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.92156863212585449,
+    "Alpha Component" : 1,
+    "Green Component" : 0.86274510622024536
+  },
+  "Bold Color" : {
+    "Red Component" : 0.80392158031463623,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.95686274766921997,
+    "Alpha Component" : 1,
+    "Green Component" : 0.83921569585800171
+  },
+  "Use Cursor Guide" : false,
+  "Unlimited Scrollback" : false,
+  "Custom Command" : "No",
+  "AWDS Tab Option" : "Recycle",
+  "HotKey Key Code" : 34,
+  "Keyboard Map" : {
+    "0xf702-0x280000-0x0" : {
+      "Version" : 0,
+      "Label" : "",
+      "Text" : "b",
+      "Action" : 10
+    },
+    "0xf703-0x280000-0x0" : {
+      "Version" : 0,
+      "Label" : "",
+      "Text" : "f",
+      "Action" : 10
+    }
+  },
+  "Ansi 14 Color" : {
+    "Red Component" : 0.58039218187332153,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.83529412746429443,
+    "Alpha Component" : 1,
+    "Green Component" : 0.88627451658248901
+  },
+  "Ansi 2 Color" : {
+    "Red Component" : 0.58431372549019611,
+    "Color Space" : "P3",
+    "Blue Component" : 0.51372549019607838,
+    "Alpha Component" : 1,
+    "Green Component" : 0.84313725490196079
+  },
+  "Send Code When Idle" : false,
+  "ASCII Anti Aliased" : true,
+  "Tags" : [
+
+  ],
+  "Ansi 9 Color" : {
+    "Red Component" : 0.88235294818878174,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.5215686559677124,
+    "Alpha Component" : 1,
+    "Green Component" : 0.3803921639919281
+  },
+  "Use Bold Font" : false,
+  "Silence Bell" : true,
+  "Ansi 12 Color" : {
+    "Red Component" : 0.23529411852359772,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.94509804248809814,
+    "Alpha Component" : 1,
+    "Green Component" : 0.5058823823928833
+  },
+  "Window Type" : 1,
+  "Use Bright Bold" : true,
+  "Has Hotkey" : false,
+  "HotKey Modifier Activation" : 0,
+  "Cursor Text Color" : {
+    "Red Component" : 0.11764705926179886,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.18039216101169586,
+    "Alpha Component" : 1,
+    "Green Component" : 0.11764705926179886
+  },
+  "HotKey Window Dock Click Action" : 2,
+  "Default Bookmark" : "No",
+  "Cursor Color" : {
+    "Red Component" : 0.96078431606292725,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.86274510622024536,
+    "Alpha Component" : 1,
+    "Green Component" : 0.87843137979507446
+  },
+  "Ansi 1 Color" : {
+    "Red Component" : 0.81960784313725488,
+    "Color Space" : "P3",
+    "Blue Component" : 0.52156862745098043,
+    "Alpha Component" : 1,
+    "Green Component" : 0.40784313725490196
+  },
+  "Name" : "Gavin",
+  "Blinking Cursor" : true,
+  "Guid" : "35786372-BAC0-4533-B905-AE2EB1C1FFF0",
+  "Ansi 8 Color" : {
+    "Red Component" : 0.42733830213546753,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.554443359375,
+    "Alpha Component" : 1,
+    "Green Component" : 0.44322642683982849
+  },
+  "Ansi 10 Color" : {
+    "Red Component" : 0.50196081399917603,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.47450980544090271,
+    "Alpha Component" : 1,
+    "Green Component" : 0.85490196943283081
+  },
+  "Idle Code" : 0,
+  "Badge Color" : {
+    "Red Component" : 1,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0,
+    "Alpha Component" : 0.5,
+    "Green Component" : 0.14910030364990234
+  },
+  "Smart Cursor Color" : false,
+  "Ambiguous Double Width" : false,
+  "Blur Radius" : 0.10000000000000001,
+  "Background Image Mode" : 0,
+  "Cursor Type" : 2,
+  "Ansi 0 Color" : {
+    "Red Component" : 0.11088774353265762,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.144989013671875,
+    "Alpha Component" : 1,
+    "Green Component" : 0.1141354888677597
+  },
+  "AWDS Pane Directory" : "",
+  "Blur" : true,
+  "Normal Font" : "JetBrainsMonoNF-Regular 15",
+  "Vertical Spacing" : 1,
+  "Use Underline Color" : false,
+  "Ansi 7 Color" : {
+    "Red Component" : 1,
+    "Color Space" : "sRGB",
+    "Blue Component" : 1,
+    "Alpha Component" : 1,
+    "Green Component" : 1
+  },
+  "Space" : 0,
+  "AWDS Tab Directory" : "",
+  "AWDS Pane Option" : "Recycle",
+  "HotKey Window AutoHides" : true,
+  "Command" : "",
+  "Terminal Type" : "xterm-256color",
+  "Horizontal Spacing" : 1,
+  "Option Key Sends" : 2,
+  "Only The Default BG Color Uses Transparency" : true,
+  "HotKey Window Animates" : true,
+  "Blink Allowed" : false,
+  "Ansi 15 Color" : {
+    "Red Component" : 1,
+    "Color Space" : "sRGB",
+    "Blue Component" : 1,
+    "Alpha Component" : 1,
+    "Green Component" : 1
+  },
+  "HotKey Modifier Flags" : 1048576,
+  "Minimum Contrast" : 0,
+  "HotKey Activated By Modifier" : false,
+  "Ansi 6 Color" : {
+    "Red Component" : 0.58039218187332153,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.83529412746429443,
+    "Alpha Component" : 1,
+    "Green Component" : 0.88627451658248901
+  },
+  "Initial Text" : "",
+  "Background Color" : {
+    "Red Component" : 0,
+    "Color Space" : "P3",
+    "Blue Component" : 0,
+    "Alpha Component" : 1,
+    "Green Component" : 0
+  },
+  "Tab Color" : {
+    "Red Component" : 0.0039215688593685627,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.15294118225574493,
+    "Alpha Component" : 1,
+    "Green Component" : 0.086274512112140656
+  },
+  "Transparency" : 0.20000000000000001,
+  "Screen" : -1,
+  "AWDS Window Option" : "Yes",
+  "Initial Use Transparency" : true,
+  "Bound Hosts" : [
+
+  ],
+  "HotKey Characters Ignoring Modifiers" : "i",
+  "Non Ascii Font" : "Menlo-Regular 11",
+  "Ansi 13 Color" : {
+    "Red Component" : 0.95686274766921997,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.82352942228317261,
+    "Alpha Component" : 1,
+    "Green Component" : 0.46666666865348816
+  },
+  "Columns" : 100,
+  "HotKey Alternate Shortcuts" : [
+
+  ],
+  "Use Tab Color" : false,
+  "Visual Bell" : true,
+  "Custom Directory" : "Advanced",
+  "Ansi 5 Color" : {
+    "Red Component" : 0.9600830078125,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.82487255334854126,
+    "Alpha Component" : 1,
+    "Green Component" : 0.46753066778182983
+  },
+  "ASCII Ligatures" : false
+}
