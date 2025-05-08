@@ -1,0 +1,58 @@
+{
+  "settings": {
+    "migrated": 5,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "FasPerson",
+      "FiTrash",
+      "TiTargetArrow",
+      "IbChartBar",
+      "CoCoffee"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "debugMode": false
+  },
+  "Archive": {
+    "iconName": "FasBoxArchive",
+    "iconColor": "#70cda1"
+  },
+  "Diaries": "TiWriting",
+  "Home.md": {
+    "iconName": "OcHome16",
+    "iconColor": "#2ec0ff"
+  },
+  "Excalidraw": "SiExcalidraw",
+  "References/Web Development": "FabNodeJs",
+  "Dump.md": "FiTrash",
+  "Goals": "IbChartBar",
+  "Resources": {
+    "iconName": "OcCrossReference16",
+    "iconColor": "#ff4d4d"
+  },
+  "Resources/Chats.md": {
+    "iconName": "CoCoffee",
+    "iconColor": "#784f4f"
+  },
+  "Resources/Machine Learning": "LiBrain",
+  "Resources/Stomach Condition": "RiHealthBookLine"
+}

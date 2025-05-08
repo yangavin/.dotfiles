@@ -1,0 +1,19 @@
+{
+  "vimMode": true,
+  "showLineNumber": false,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "promptDelete": false,
+  "showRibbon": true,
+  "showInlineTitle": true,
+  "attachmentFolderPath": "./assets",
+  "useMarkdownLinks": false,
+  "alwaysUpdateLinks": true,
+  "defaultViewMode": "preview",
+  "mobilePullAction": "daily-notes"
+}

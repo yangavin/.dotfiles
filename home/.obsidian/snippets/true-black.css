@@ -1,0 +1,35 @@
+/* Apply styles only in dark mode */
+.theme-dark {
+  /* Main app background */
+  .workspace,
+  .app-container,
+  .workspace-leaf,
+  .workspace-split,
+  .workspace-ribbon {
+    background-color: #000000 !important;
+  }
+
+  /* Sidebar and panes background */
+  .pane-header,
+  .side-dock,
+  .side-dock.mod-left,
+  .side-dock.mod-right,
+  .workspace-tabs {
+    background-color: #000000 !important;
+  }
+
+  /* Notes background */
+  .view-content,
+  .markdown-preview-view,
+  .markdown-source-view {
+    background-color: #000000 !important;
+  }
+
+  /* Modals and popups background */
+  .modal-bg,
+  .popover,
+  .menu,
+  .menu-item {
+    background-color: #000000 !important;
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "main": {
+    "id": "2e23f761a540f176",
+    "type": "split",
+    "children": [
+      {
+        "id": "930729fd03f249ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "50cc39d5255fa9de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diaries/2025-05-07.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-05-07"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a26fe172d1319277",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a527e9ce6ab2a38",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3f72afa983a71072",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "4f7a239e2f60f7fc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6ed7db5ebc68bb38",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 239.5
+  },
+  "right": {
+    "id": "7604a4b23cb86707",
+    "type": "split",
+    "children": [
+      {
+        "id": "f5fa4970d7af2402",
+        "type": "tabs",
+        "dimension": 59.30359085963003,
+        "children": [
+          {
+            "id": "cd02da59efe47c4f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Diaries/2025-05-07.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2025-05-07"
+            }
+          },
+          {
+            "id": "7c929832a245d82f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "4b08bf7e6618ef71",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Diaries/2025-01-13.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2025-01-13"
+            }
+          },
+          {
+            "id": "26d2d0ef8880dc03",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Diaries/2025-01-13.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2025-01-13"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2a100b358e9a2fd8",
+        "type": "tabs",
+        "dimension": 40.696409140369965,
+        "children": [
+          {
+            "id": "104d8c554cd599e1",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 297.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": true,
+      "templates:Insert template": false,
+      "canvas:Create new canvas": true,
+      "command-palette:Open command palette": true,
+      "switcher:Open quick switcher": true,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "daily-notes:Open today's daily note": true
+    }
+  },
+  "active": "50cc39d5255fa9de",
+  "lastOpenFiles": [
+    "Home.md",
+    "Diaries/2025-05-07.md",
+    "Diaries/2025-05-03.md",
+    "Goals/Social Confidence.md",
+    "Archive/Goals/Social Confidence.md",
+    "Resources/Therapy Notes.md",
+    "Diaries/2025-05-02.md",
+    "Templates/Thought Record.md",
+    "Templates",
+    "Goals/Free of Stomach Pain.md",
+    "Goals/FAANG or US.md",
+    "Diaries/2025-W13.md",
+    "Diaries/2025-04-30.md",
+    "Diaries/2024-10-23.md",
+    "Diaries/2024-10-31.md",
+    "Resources/Chats Data.md",
+    "Resources/Chats.md",
+    "Resources/Internship Resources.md",
+    "Resources/Personal Statement.md",
+    "Resources/Personal Training.md",
+    "Resources/Philosophical Epiphanies.md",
+    "Resources/Ways to Save.md",
+    "Archive/Experiments/Social Confidence.md",
+    "Archive/Experiments/A Fulfilling Friendship.md",
+    "Diaries/2025-04-29.md",
+    "Diaries/2025-03-28.md",
+    "Diaries/2025-04-25.md",
+    "what.html",
+    "Resources/Habits Cheat Sheet.pdf",
+    "Archive/Goals",
+    "References/Web Development/JS Browser Runtime.pdf",
+    "Diaries/assets/Pasted image 20241112153757.png",
+    "Diaries/assets/Pasted image 20241112153319.png",
+    "Diaries/assets/Pasted image 20241112153242.png",
+    "Diaries/assets/Pasted image 20241112153134.png",
+    "Diaries/assets/Pasted image 20241112153023.png",
+    "Diaries/assets/Pasted image 20241112152815.png",
+    "Diaries/assets/Pasted image 20241112152736.png",
+    "Diaries/assets/Pasted image 20241112152657.png",
+    "Diaries/assets/Pasted image 20241112152355.png",
+    "Diaries/assets/Pasted image 20241008151350.png",
+    "ANAT ;-;/assets",
+    "ANAT ;-;",
+    "Diaries/assets",
+    "Diaries/assets/Pasted image 20240720182031.png.sb-54c8d35a-3UyanK",
+    "Untitled.canvas",
+    "Resources/Stomach Condition",
+    "Overview.canvas",
+    "Diaries/Central Symptoms.canvas",
+    "Levels of Abstraction.canvas"
+  ]
+}

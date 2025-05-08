@@ -1,0 +1,17 @@
+.theme-dark {
+  --h1-color: #a8d7fe;
+  --h2-color: #ffbfa6;
+  --h3-color: #bcf6bc;
+  --h4-color: #fba1ce;
+  --h5-color: #f8d79a;
+  --h6-color: #f8b5f8;
+}
+
+.theme-light {
+  --h1-color: #5baaeb;
+  --h2-color: #f06b6b;
+  --h3-color: #66d0ad;
+  --h4-color: #d2691e;
+  --h5-color: #ff7f50;
+  --h6-color: #ba55d3;
+}

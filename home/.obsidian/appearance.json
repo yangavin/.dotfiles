@@ -1,0 +1,15 @@
+{
+  "accentColor": "",
+  "cssTheme": "",
+  "textFontFamily": "",
+  "monospaceFontFamily": "JetBrainsMono Nerd Font",
+  "theme": "system",
+  "translucency": false,
+  "nativeMenus": true,
+  "enabledCssSnippets": [
+    "colored-headings",
+    "true-black"
+  ],
+  "showViewHeader": true,
+  "showRibbon": false
+}
