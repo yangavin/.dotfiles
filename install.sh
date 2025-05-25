@@ -48,8 +48,7 @@ else
     
     if [[ ! -d "$DOTFILES_DIR" ]]; then
         print_status "Cloning dotfiles repository..."
-        # Replace with your actual dotfiles repository URL
-        read -p "Enter your dotfiles repository URL: " REPO_URL
+        REPO_URL="https://github.com/yangavin/.dotfiles.git"
         git clone "$REPO_URL" "$DOTFILES_DIR"
         print_success "Dotfiles repository cloned successfully"
     fi
