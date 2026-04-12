@@ -6,4 +6,3 @@ FPATH="${FPATH}:$(brew --prefix)/share/zsh/site-functions"
 # change lazygit config path
 export XDG_CONFIG_HOME="$HOME/.config" 
 
-eval "$(mise activate zsh)"
