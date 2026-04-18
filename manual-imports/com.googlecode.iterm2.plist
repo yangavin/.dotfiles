@@ -3121,6 +3121,8 @@
 	</dict>
 	<key>Default Bookmark Guid</key>
 	<string>35786372-BAC0-4533-B905-AE2EB1C1FFF0</string>
+	<key>Default Browser Profile Guid</key>
+	<string>35786372-BAC0-4533-B905-AE2EB1C1FFF0</string>
 	<key>DisableFullscreenTransparency</key>
 	<false/>
 	<key>DisableWindowSizeSnap</key>
@@ -3711,6 +3713,8 @@
 			<true/>
 			<key>HotKey Window Reopens On Activation</key>
 			<false/>
+			<key>Icon</key>
+			<integer>1</integer>
 			<key>Idle Code</key>
 			<integer>0</integer>
 			<key>Initial Text</key>
