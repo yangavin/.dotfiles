@@ -26,6 +26,25 @@ print_error() {
     echo -e "${RED}[ERROR]${NC} $1"
 }
 
+# Check if Homebrew is installed
+# Install Homebrew first because it also installs the Xcode Command Line Tools,
+# which provide git — needed to clone the dotfiles repository below.
+if ! command -v brew &> /dev/null; then
+    print_status "Installing Homebrew..."
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+    # Add Homebrew to PATH for the current session
+    if [[ -f "/opt/homebrew/bin/brew" ]]; then
+        eval "$(/opt/homebrew/bin/brew shellenv)"
+    elif [[ -f "/usr/local/bin/brew" ]]; then
+        eval "$(/usr/local/bin/brew shellenv)"
+    fi
+
+    print_success "Homebrew installed successfully"
+else
+    print_success "Homebrew is already installed"
+fi
+
 # Check if we're already in the dotfiles directory
 if [[ "$(basename "$PWD")" == ".dotfiles" ]]; then
     print_status "Already in .dotfiles directory"
@@ -33,7 +52,7 @@ if [[ "$(basename "$PWD")" == ".dotfiles" ]]; then
 else
     # Clone dotfiles repository
     DOTFILES_DIR="$HOME/.dotfiles"
-    
+
     if [[ -d "$DOTFILES_DIR" ]]; then
         print_warning "Dotfiles directory already exists at $DOTFILES_DIR"
         read -p "Do you want to remove it and re-clone? (y/N): " -n 1 -r
@@ -45,33 +64,16 @@ else
             print_status "Using existing dotfiles directory"
         fi
     fi
-    
+
     if [[ ! -d "$DOTFILES_DIR" ]]; then
         print_status "Cloning dotfiles repository..."
         REPO_URL="https://github.com/yangavin/.dotfiles.git"
         git clone "$REPO_URL" "$DOTFILES_DIR"
         print_success "Dotfiles repository cloned successfully"
     fi
-    
+
     # Change to dotfiles directory
     cd "$DOTFILES_DIR"
-fi
-
-# Check if Homebrew is installed
-if ! command -v brew &> /dev/null; then
-    print_status "Installing Homebrew..."
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    
-    # Add Homebrew to PATH for the current session
-    if [[ -f "/opt/homebrew/bin/brew" ]]; then
-        eval "$(/opt/homebrew/bin/brew shellenv)"
-    elif [[ -f "/usr/local/bin/brew" ]]; then
-        eval "$(/usr/local/bin/brew shellenv)"
-    fi
-    
-    print_success "Homebrew installed successfully"
-else
-    print_success "Homebrew is already installed"
 fi
 
 # Check if Brewfile exists
