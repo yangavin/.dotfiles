@@ -1,8 +1,8 @@
-# 🏠 Dotfiles
+# Dotfiles
 
 This repository contains all my configuration dotfiles and automated setup scripts for quickly configuring new macOS machines.
 
-## 🚀 Quick Start
+## Quick Start
 
 ### One-Line Installation
 
@@ -23,7 +23,7 @@ This will:
 - Generate and set up SSH keys for GitHub
 - Test GitHub SSH connection
 
-## 🔧 Manual Installation
+## Manual Installation
 
 If you prefer to run the installation step by step:
 
