@@ -19,19 +19,50 @@
 	<key>AdjustWindowForFontSizeChange</key>
 	<false/>
 	<key>AiMaxTokens</key>
-	<integer>400000</integer>
+	<integer>1050000</integer>
 	<key>AiModel</key>
-	<string>gpt-5.2</string>
+	<string>gpt-5.5</string>
 	<key>AiResponseMaxTokens</key>
 	<integer>128000</integer>
 	<key>AitermURL</key>
 	<string>https://api.openai.com/v1/responses</string>
+	<key>AllowClipboardAccess</key>
+	<true/>
 	<key>AlternateMouseScroll</key>
 	<true/>
 	<key>BadgeRightMargin</key>
 	<integer>0</integer>
 	<key>BadgeTopMargin</key>
 	<integer>0</integer>
+	<key>ClaudeCodeTriggersInstalled</key>
+	<true/>
+	<key>CodeReviewSavedPrompts</key>
+	<data>
+	W3sibmFtZSI6IkRlZmF1bHQiLCJ0ZXh0IjoiUmV2aWV3IHRoZSBwZW5kaW5nIGNoYW5n
+	ZXMgaW4gdGhpcyByZXBvLiBGbGFnIGlzc3VlcyBhIGNhcmVmdWwgbWFpbnRhaW5lciB3
+	b3VsZCBibG9jayBvbiBiZWZvcmUgbWVyZ2UsIGluIHJvdWdobHkgdGhpcyBvcmRlcjpc
+	biAgMS4gQ29ycmVjdG5lc3Mg4oCUIGxvZ2ljIGVycm9ycywgYnJva2VuIGludmFyaWFu
+	dHMsIG1pc3NlZCBlZGdlIGNhc2VzLCBvZmYtYnktb25lLCByYWNlcywgbGlmZXRpbWVc
+	L21lbW9yeSBidWdzLCBlcnJvciBwYXRocyB0aGF0IHN3YWxsb3cgZmFpbHVyZXMuXG4g
+	IDIuIFNlY3VyaXR5IOKAlCBpbmplY3Rpb24sIGF1dGhuXC9hdXRoeiBtaXN0YWtlcywg
+	c2VjcmV0IGhhbmRsaW5nLCB1bnNhZmUgZGVzZXJpYWxpemF0aW9uLCB1bnNhZmUgZGVm
+	YXVsdHMsIFRPQ1RPVS5cbiAgMy4gUmVsaWFiaWxpdHkgJiBwZXJmb3JtYW5jZSDigJQg
+	YmxvY2tpbmcgdGhlIHdyb25nIHRocmVhZCwgdW5ib3VuZGVkIHJlc291cmNlIHVzZSwg
+	YWNjaWRlbnRhbCBPKE7CsiksIHJldHJpZXMgd2l0aG91dCBiYWNrb2ZmLCBzaWxlbnQg
+	ZmFpbHVyZSBwYXRocy5cbiAgNC4gQ29udHJhY3QgcmlzayDigJQgYmVoYXZpb3IgY2hh
+	bmdlcyBjYWxsZXJzIHJlbHkgb24sIHNpbGVudGx5IGNoYW5nZWQgZGVmYXVsdHMsIGJy
+	b2tlbiBiYWNrd2FyZCBjb21wYXRpYmlsaXR5LCBtaXNzaW5nIG1pZ3JhdGlvbnMuXG5c
+	bkZvciBlYWNoIGZpbmRpbmcgY2l0ZSBgZmlsZTpsaW5lYCwgZXhwbGFpbiAqd2h5KiBp
+	dCBpcyB3cm9uZyAobm90IHdoYXQgdGhlIGNvZGUgZG9lcyksIGFuZCBwcm9wb3NlIGEg
+	Y29uY3JldGUgZml4IHdoZW4gb25lIGlzIG9idmlvdXMuIEJlIGNhbGlicmF0ZWQ6IGlm
+	IGEgZmluZGluZyBpcyBub3QgaGlnaC1jb25maWRlbmNlLCBzYXkgc28gb3Igc2tpcCBp
+	dC4gVmVyaWZ5IGNsYWltcyBhZ2FpbnN0IHRoZSBhY3R1YWwgY29kZSByYXRoZXIgdGhh
+	biBpbmZlcnJpbmcgZnJvbSBuYW1lcy5cblxuU2tpcCBwdXJlIHN0eWxlLCBmb3JtYXR0
+	aW5nLCBuYW1pbmcsIGFuZCBhbnl0aGluZyBhIGxpbnRlciBvciBDSSBhbHJlYWR5IGVu
+	Zm9yY2VzLlxuXG5JZiB5b3UgZmluZCBub3RoaW5nIHdvcnRoIGZpeGluZywgc2F5IHNv
+	IHBsYWlubHkuIiwidXVpZCI6IkU2QzlCODU2LTc4ODAtNEQ0Mi1COTc5LTFDQUNGMzA1
+	RjdGQiJ9XQ==
+	</data>
 	<key>CopySelection</key>
 	<true/>
 	<key>Custom Color Presets</key>
@@ -3128,7 +3159,7 @@
 	<key>DisableWindowSizeSnap</key>
 	<false/>
 	<key>EnableAPIServer</key>
-	<false/>
+	<true/>
 	<key>EnableDivisionView</key>
 	<false/>
 	<key>EnableProxyIcon</key>
@@ -3853,6 +3884,53 @@
 			<integer>4</integer>
 			<key>Transparency</key>
 			<real>0.20000000000000001</real>
+			<key>Triggers</key>
+			<array>
+				<dict>
+					<key>action</key>
+					<string>iTermEnterWorkgroupTrigger</string>
+					<key>contentregex</key>
+					<string></string>
+					<key>disabled</key>
+					<false/>
+					<key>eventParams</key>
+					<dict>
+						<key>jobName</key>
+						<string>claude</string>
+					</dict>
+					<key>matchType</key>
+					<integer>113</integer>
+					<key>parameter</key>
+					<string>builtin.claudeCode</string>
+					<key>partial</key>
+					<false/>
+					<key>regex</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>action</key>
+					<string>iTermExitWorkgroupTrigger</string>
+					<key>contentregex</key>
+					<string></string>
+					<key>disabled</key>
+					<false/>
+					<key>eventParams</key>
+					<dict>
+						<key>jobName</key>
+						<string>claude</string>
+						<key>leaderOnly</key>
+						<true/>
+					</dict>
+					<key>matchType</key>
+					<integer>114</integer>
+					<key>parameter</key>
+					<string></string>
+					<key>partial</key>
+					<false/>
+					<key>regex</key>
+					<string></string>
+				</dict>
+			</array>
 			<key>Unlimited Scrollback</key>
 			<false/>
 			<key>Use Bold Font</key>
@@ -3964,6 +4042,10 @@
 	<integer>0</integer>
 	<key>TabsHaveCloseButton</key>
 	<false/>
+	<key>ToolbeltTools</key>
+	<array>
+		<string>Profiles</string>
+	</array>
 	<key>UIElementRequiresHotkeys</key>
 	<false/>
 	<key>UseBorder</key>
@@ -3974,6 +4056,37 @@
 	<false/>
 	<key>WindowNumber</key>
 	<true/>
+	<key>Workgroups</key>
+	<data>
+	W3sibmFtZSI6IkNsYXVkZSBDb2RlIiwic2Vzc2lvbnMiOlt7Im1vZGUiOiJyZWd1bGFy
+	Iiwia2luZCI6eyJraW5kIjoicm9vdCJ9LCJwZXJGaWxlQ29tbWFuZCI6IiIsInVybFN0
+	cmluZyI6IiIsImNvbW1hbmQiOiIiLCJkaXNwbGF5TmFtZSI6IkNoYXQiLCJ0b29sYmFy
+	SXRlbXMiOlt7ImtpbmQiOiJtb2RlU3dpdGNoZXIifSx7ImtpbmQiOiJnaXRTdGF0dXMi
+	fSx7ImtpbmQiOiJhdXRvUmVxdWVzdFJldmlld1doZW5JZGxlIn1dLCJ1bmlxdWVJZGVu
+	dGlmaWVyIjoiYnVpbHRpbi5jbGF1ZGVDb2RlLm1haW4ifSx7Im1vZGUiOiJkaWZmIiwi
+	a2luZCI6eyJraW5kIjoicGVlciJ9LCJwZXJGaWxlQ29tbWFuZCI6ImdpdCBkaWZmdG9v
+	bCAteSAteCB2aW1kaWZmIFxcKGdpdEJhc2UpIC0tIFxcKGZpbGUpIiwidXJsU3RyaW5n
+	IjoiIiwicGFyZW50SUQiOiJidWlsdGluLmNsYXVkZUNvZGUubWFpbiIsImNvbW1hbmQi
+	OiJnaXQgZGlmZnRvb2wgLXkgLXggdmltZGlmZiBcXChnaXRCYXNlKSIsImRpc3BsYXlO
+	YW1lIjoiRGlmZiIsInRvb2xiYXJJdGVtcyI6W3sia2luZCI6Im1vZGVTd2l0Y2hlciJ9
+	LHsia2luZCI6ImNoYW5nZWRGaWxlU2VsZWN0b3IifSx7ImtpbmQiOiJnaXRCYXNlU2Vs
+	ZWN0b3IifSx7ImtpbmQiOiJuYXZpZ2F0aW9uIiwiYmFja1Nob3J0Y3V0Ijp7InNlcmlh
+	bGl6ZWQiOiIweGY3MDItMHgzNDAwMDAtMHg3YiJ9LCJmb3J3YXJkU2hvcnRjdXQiOnsi
+	c2VyaWFsaXplZCI6IjB4ZjcwMy0weDM0MDAwMC0weDdjIn0sInJlbG9hZFNob3J0Y3V0
+	Ijp7InNlcmlhbGl6ZWQiOiIweDcyLTB4MTAwMDAwLTB4ZiJ9fV0sInVuaXF1ZUlkZW50
+	aWZpZXIiOiJidWlsdGluLmNsYXVkZUNvZGUuZGlmZiJ9LHsibW9kZSI6ImNvZGVSZXZp
+	ZXciLCJraW5kIjp7ImtpbmQiOiJwZWVyIn0sInBlckZpbGVDb21tYW5kIjoiIiwidXJs
+	U3RyaW5nIjoiIiwicGFyZW50SUQiOiJidWlsdGluLmNsYXVkZUNvZGUubWFpbiIsImNv
+	bW1hbmQiOiJjbGF1ZGUgXFwoY29kZVJldmlld1Byb21wdCkgLS1hcHBlbmQtc3lzdGVt
+	LXByb21wdC1maWxlICdcXChjb2RlUmV2aWV3U3lzdGVtUHJvbXB0RmlsZSknIC0tc2V0
+	dGluZ3MgJ1xcKGl0ZXJtMi5hcHBCdW5kbGVQYXRoKVwvQ29udGVudHNcL1Jlc291cmNl
+	c1wvY29kZS1yZXZpZXctc2V0dGluZ3MudHh0JyIsImRpc3BsYXlOYW1lIjoiQ29kZSBS
+	ZXZpZXciLCJ0b29sYmFySXRlbXMiOlt7ImtpbmQiOiJtb2RlU3dpdGNoZXIifSx7Imtp
+	bmQiOiJyZWxvYWQiLCJzaG9ydGN1dCI6eyJzZXJpYWxpemVkIjoiMHg3Mi0weDEwMDAw
+	MC0weGYifX0seyJraW5kIjoiYXV0b1NlbmRDbGlwcGluZ3NXaGVuSWRsZSJ9XSwidW5p
+	cXVlSWRlbnRpZmllciI6ImJ1aWx0aW4uY2xhdWRlQ29kZS5yZXZpZXcifV0sInVuaXF1
+	ZUlkZW50aWZpZXIiOiJidWlsdGluLmNsYXVkZUNvZGUifV0=
+	</data>
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewPreferredModeKey</key>
